@@ -2,8 +2,8 @@ package spring_di.interceptor;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
-import spring_di.enums.CustomerType;
 import spring_di.TransactionInfo;
+import spring_di.enums.CustomerType;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

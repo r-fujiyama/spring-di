@@ -1,4 +1,4 @@
-package spring_di.service;
+package spring_di.service.customer;
 
 import org.springframework.stereotype.Service;
 import spring_di.TransactionInfo;
@@ -10,6 +10,6 @@ public class FreelanceCustomerService implements CustomerService {
 
     @Override
     public String getCustomerInfo() {
-        return "freelance: " + TransactionInfo.getCustomerNo();
+        return "freelance customer:" + TransactionInfo.getCustomerNo();
     }
 }

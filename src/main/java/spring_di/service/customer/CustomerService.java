@@ -1,4 +1,4 @@
-package spring_di.service;
+package spring_di.service.customer;
 
 public interface CustomerService {
 

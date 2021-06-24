@@ -1,4 +1,4 @@
-package spring_di.service;
+package spring_di.service.customer;
 
 import org.springframework.stereotype.Service;
 import spring_di.TransactionInfo;
@@ -10,6 +10,6 @@ public class PrivateCustomerService implements CustomerService {
 
     @Override
     public String getCustomerInfo() {
-        return "private: " + TransactionInfo.getCustomerNo();
+        return "private customer:" + TransactionInfo.getCustomerNo();
     }
 }
